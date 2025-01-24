@@ -60,7 +60,7 @@ Pada notebook ini mencakup lima pertanyaan terkait analisis bisnis yang berhubun
 
 Jawaban Pertanyaan
 1. Apa tren utama yang dapat diidentifikasi dari data?
-![Alt Text](https://raw.githubusercontent.com/Seynz/final_data_science/main/image.png)
+
 Musim dingin cenderung memiliki tingkat polusi yang lebih tinggi, mungkin karena penggunaan bahan bakar pemanas atau kondisi atmosfer yang meningkatkan penahanan polutan di kota gucheng.
 
 2. Bagaimana performa setiap kategori/kelompok dalam dataset?
@@ -74,9 +74,6 @@ kota Dongsi memiliki polusi PM2.5 terbanyak shingga butuh penanganan yang lebih 
 ![Alt Text](https://raw.githubusercontent.com/Seynz/final_data_science/main/gambar4.png)
 kadar PM2.5 menurun signifikan dari pukul 0.00 sampai sekitar pukul 16:00 dan naik secara signifikan dari pukul sekitar pukul 16:00 sampai puku 24:00 dikota guanyuan. hal ini butuh d cari tahu apa hal yang membuat naik signifikan dari jam 16:00 keatas
 
-5. Apa rekomendasi utama berdasarkan hasil analisis?
-![Alt Text](https://raw.githubusercontent.com/Seynz/final_data_science/main/gambar5.png)
- pertengahan tahun mengalami penurunan PM2.5 dan kembali naik dan mencapai titik puncaknnya pada bulan 12 (musim dingin) dikota guanyuan jadi butuh penanganan lebih dan intensif dari bulam 1o sampai 12
 
 
 ### 6. Kesimpulan dan Rekomendasi
@@ -103,17 +100,3 @@ Pemantauan dan analisis data polusi udara secara terus-menerus penting untuk men
 Data polusi udara dapat diintegrasikan dengan data lain, seperti data lalu lintas atau data industri, untuk mendapatkan pemahaman yang lebih komprehensif tentang sumber polusi.
 
 ---
-
-## Cara Menjalankan Notebook
-1. Pastikan Anda telah menginstall semua library yang diperlukan:
-   bash
-   pip install numpy pandas matplotlib
-   
-2. Buka notebook di Jupyter Notebook atau JupyterLab.
-3. Jalankan setiap sel secara berurutan.
-
----
-
-## Catatan Tambahan
-- *Dataset*: [Dataset yang digunakan terkait Air Quality]
-- *Dependencies*: Python 3.x dan library yang sudah disebutkan di atas.
