@@ -14,7 +14,7 @@ Notebook ini memulai dengan mengimpor library penting yang digunakan untuk prose
 
 python
 
-# Contoh import library
+# import library
 
 import numpy as np
 import pandas as pd
@@ -29,7 +29,7 @@ Proses ini memuat dataset yang akan digunakan untuk analisis.
 
 python
 
-# Contoh memuat dataset
+# memuat dataset
 
 data_aoti = pd.read_csv('/content/PRSA_Data_Aotizhongxin_20130301-20170228.csv')
 data_aoti.head()
@@ -44,7 +44,7 @@ Bagian ini melibatkan pembersihan data dan eksplorasi awal.
 
 python
 
-# Contoh cleaning data
+# cleaning data
 
 data = data.dropna()
 data.info()
@@ -55,7 +55,7 @@ Bagian ini mencakup analisis atau pengolahan lebih lanjut pada data.
 
 python
 
-# Contoh analisis sederhana
+# analisis sederhana
 
 plt.hist(data["column_name"])
 plt.show()
